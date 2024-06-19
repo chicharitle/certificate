@@ -1,3 +1,10 @@
+<?php
+include ("dbconnect.php");
+
+$sql = "SELECT * FROM certificate";
+$result = $conn->query($sql);
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
